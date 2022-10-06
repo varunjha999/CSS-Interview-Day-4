@@ -1,0 +1,143 @@
+/* Ans:-19 */
+
+.master{
+    background-image:url(./Masterhead\(web\).svg) ;
+    width: 500px;
+    height: 500px;
+   
+    
+}
+
+.btn{
+    
+    width: 120px;
+    background-color: rgba(0, 183, 255, 0.936);
+    font-size: 12px;
+    color: white;
+    border: 1px solid rgba(0, 183, 255, 0.936);
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 107px;
+   
+}
+
+.center{
+    position: relative;
+
+    top: 416px;
+    left: 68px;
+    font-size: medium;
+    color: blanchedalmond;
+}
+
+
+/* Ans:-20 */
+
+header{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+   /* background-color: aqua; */
+   margin-top: 20px;
+   margin-left: 10px;
+}
+
+.butn{
+    width: 120px;
+    background-color:rebeccapurple;
+    font-size: 12px;
+    color: white;
+    border: 1px solid rebeccapurple;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+  
+}
+.right{
+    position: relative;
+    top: -43px;
+    right: -725px;
+
+}
+
+/* Ans:-21 */
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cd{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+}
+
+/* Ans:-22 */
+
+.buttn{
+    width: 120px;
+    background-color:olive;
+    font-size: 12px;
+    color: white;
+    border: 1px solid olivedrab;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+@media only screen and (min-width: 300px) and (max-width: 700px){
+ .buttn{
+            background-color: aqua;
+ }
+
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 1050px){
+    .buttn{
+               background-color: royalblue;
+    }
+   
+   }
+
+/* Ans:-23 */
+
+.flex-container {
+    width: 1000px;
+    height: 400px;
+    padding: 40px;
+    margin: 40px;
+    background-color: yellow;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    align-content: space-around;
+}
+.flex-items {
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+}
